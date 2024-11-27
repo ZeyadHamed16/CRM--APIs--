@@ -1,0 +1,8 @@
+POST http://localhost/course/6_CRM/app/side_user/tickets/send_ticket.php
+Content-Type: application/json
+
+{
+    "ticket_user_id": 2,
+    "ticket_heading": "Login Issue",
+    "ticket_description": "The user is experiencing problems logging in. The password reset function is not working."
+}
